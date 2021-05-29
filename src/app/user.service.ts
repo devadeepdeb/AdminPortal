@@ -22,12 +22,12 @@ export class UserService {
    }
 
    enableUser (username: string) {
-     let url = "http://localhost:8080/api/user/"+username+"/enable";
+     let url = "http://localhost:7070/api/user/"+username+"/enable";
      return this.http.get(url, { withCredentials: true });
    }
 
    disableUser (username: string) {
-     let url = "http://localhost:8080/api/user/"+username+"/disable";
+     let url = "http://localhost:7070/api/user/"+username+"/disable";
      return this.http.get(url, { withCredentials: true });
    }
 
