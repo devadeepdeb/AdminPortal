@@ -40,6 +40,13 @@ To get more help on the `angular-cli` use `ng help` or go check out the [Angular
 <img src="Images/angconf1.PNG">
 <img src="Images/angconf2.PNG">
 <img src="Images/anglog.PNG">
+<img src="Images/ang1.PNG">
+<img src="Images/ang2.PNG">
+<img src="Images/ang3.PNG">
+<img src="Images/ang4.PNG">
+<img src="Images/ang5.PNG">
+<img src="Images/ang6.PNG">
+<img src="Images/ang7.PNG">
 <h3>Deployment Steps on AWS EC2 instance</h3>
 <pre>
 1)  I used https://github.com/devadeepdeb/AdminPortal
@@ -60,10 +67,10 @@ To get more help on the `angular-cli` use `ng help` or go check out the [Angular
 16)	Write “docker run -d -p 4200:80 adminportal” to run the angular app on AWS EC2 instance.
 17)	Now open http://54.197.30.224:5001/ to host Angular application docker container on AWS EC2 instance for end users.
 18)	Loaded application screenshot is as below (I have only deployed in AWS EC2 instance. We also need to change springboot consuming api urls accordingly. I have not used Jenkins in AWS deployment)
-<img src="Images/ang1.PNG">
-<img src="Images/ang2.PNG">
-<img src="Images/ang3.PNG">
-<img src="Images/ang4.PNG">
-<img src="Images/ang5.PNG">
-<img src="Images/ang6.PNG">
-<img src="Images/ang7.PNG">
+<img src="Images/AWS EC2 docker-git version.PNG">
+<img src="Images/AWS EC2 maven-java version.PNG">
+<img src="Images/AWS Security Rules.PNG">
+<img src="Images/AWS EC2 instance.PNG">
+<img src="Images/AWS Angular SSH 1.PNG">
+<img src="Images/AWS Angular SSH 2.PNG">
+<img src="Images/Angular APP_AWS.PNG">
