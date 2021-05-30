@@ -14,8 +14,8 @@ pipeline {
       steps {
         echo 'Building..'
         dir('webapp') {
-          bat 'npm run ng build --prod --baseHref=/webapp/ -optimization=true'
-          //bat 'npm run ng serve --baseHref=/webapp/ -optimization=true'
+          //bat 'npm run ng --build --prod --baseHref=/webapp/ -optimization=true'
+        bat 'npm run ng serve --baseHref=/webapp/ -optimization=true'
         }
     }
 }
