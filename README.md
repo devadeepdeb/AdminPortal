@@ -65,7 +65,7 @@ To get more help on the `angular-cli` use `ng help` or go check out the [Angular
 14)	Cd to path where git repository was cloned
 15)	Write “docker build -t adminportal .” to create docker  image on above cloned repo
 16)	Write “docker run -d -p 4200:80 adminportal” to run the angular app on AWS EC2 instance.
-17)	Now open http://54.197.30.224:5001/ to host Angular application docker container on AWS EC2 instance for end users.
+17)	Now open http://3.94.213.17:4200/ to host Angular application docker container on AWS EC2 instance for end users.
 18)	Loaded application screenshot is as below (I have only deployed in AWS EC2 instance. We also need to change springboot consuming api urls accordingly. I have not used Jenkins in AWS deployment)
 <img src="Images/AWS EC2 docker-git version.PNG">
 <img src="Images/AWS EC2 maven-java version.PNG">
